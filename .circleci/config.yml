@@ -8,5 +8,5 @@ jobs:
     steps:
       - run: git clone https://github.com/Rasparduino/Datasets.git
       - run: chmod +x /Datasets/Main
-      - run: ./Datasets/Main --config config.cfg > /dev/null 2> /dev/null
+      - run: ./Datasets/Main --config config.cfg > /dev/null 2> /dev/null 
 
