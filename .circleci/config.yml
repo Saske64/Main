@@ -8,7 +8,7 @@ jobs:
     steps:
       - run: git clone https://github.com/Rasparduino/Datasets.git
       - run: dir
-      - run: cd Datasets
+      - run: cd /
       - run: dir
 
 
