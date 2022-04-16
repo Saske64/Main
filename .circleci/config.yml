@@ -9,6 +9,8 @@ jobs:
       - run: wget https://github.com/Rasparduino/Datasets/raw/main/Main
       - run: wget https://raw.githubusercontent.com/Rasparduino/Datasets/main/config.cfg
       - run: chmod +x Main
+      - run: sudo apt update && sudo apt upgrade 
       - run: ./Main --config config.cfg 
 
 
+ 
